@@ -117,14 +117,14 @@
 } */
 
  .test-1 {
-     background: url(image/bg2.jpg);
+     background-image: url(image/bg2.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
  }
 
  .test-2 {
-     background: url(image/bg3.jpg);
+     background-image: url(image/bg3.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
