@@ -1,0 +1,260 @@
+#expbody {
+     background: #f8f8f8;
+ }
+
+ /* .main-content img{
+     max-width: 300px;
+ } */
+
+ .back-img {
+     height: 80vh;
+ }
+
+ .back-crous {
+     height: 80vh;
+ }
+
+ .heading {
+     border-bottom: 1px solid grey;
+     ;
+     padding: 10px;
+     font-size: 50px;
+ }
+
+ .right-sidebar {
+     /* flex-basis: 25%; */
+     width: 25vw;
+     position: sticky;
+     right: 0;
+     top: 0;
+     margin-right: 0;
+     padding: 0;
+     /* background-image:url(/image/bg-5.jpg); */
+     background-image: linear-gradient(transparent, rgb(67, 100, 247), transparent);
+     height: 100vh;
+     overflow: auto;
+     display: flex;
+     flex-flow: column;
+     justify-content: center;
+     align-items: center;
+     background-color: rgb(230, 39, 39);
+ }
+
+ .main-content {
+     /* flex-basis: 75%; */
+     width: 75vw;
+ }
+
+ .side-profile img {
+     border-radius: 25px;
+     max-width: 85%;
+     align-self: center;
+ }
+
+ .social {
+     justify-content: center;
+     align-content: center;
+ }
+
+ .social i {
+     margin: 10px 20px;
+     padding: 5px;
+     cursor: pointer;
+ }
+
+ #map {
+     height: 300px;
+     width: 100%;
+     margin-top: 15px;
+ }
+
+ .profile {
+     width: 100%;
+     display: flex;
+     max-height: 50vh;
+ }
+
+ .dp {
+     width: 33%;
+ }
+
+ .dp img {
+     width: 100%;
+     border-radius: 50%;
+     height: 100%;
+ }
+
+ .inf {
+     width: 60%;
+     display: flex;
+     flex-flow: column wrap;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .name {
+     font-size: 3em;
+ }
+
+ .address {
+     font-size: 25px;
+ }
+
+ .food-item img {
+     max-width: 90%;
+     height: 500px;
+     border-radius: 25px;
+     margin: auto;
+     margin-top: 2rem;
+ }
+
+ .vendor {
+     border-bottom: 2px solid grey;
+ }
+
+ /* #heart{
+    width:;
+} */
+
+ .test-1 {
+     background: url(/image/bg2.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .test-2 {
+     background: url(/image/bg3.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .test-3 {
+     background: url(/image/bg4.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .socialDiv {
+     text-align: center;
+     /* align-items: center; */
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ #floatingTextarea {
+     width: 90%;
+     margin: auto;
+ }
+
+ .textDiv {
+     display: flex;
+     flex-flow: column wrap;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .btn-md {
+     max-width: 40%;
+     margin: auto;
+ }
+
+ /* Media Breakdown */
+
+ @media only screen and (max-width:970px) {
+     /* body{
+        background-color: red;
+    } */
+     .address {
+         font-size: 20px;
+     }
+ }
+
+ @media only screen and (min-width:851px){
+     #expbody{
+         background-color: rgb(236, 243, 236);
+     }
+} 
+ /* Sidebar has to be display off */
+
+ @media only screen and (max-width:850px) {
+    #expbody {
+         background-color: #dbe3d9;
+     }
+     .right-sidebar {
+         display: none;
+     }
+     .main-content {
+         width: 100vw;
+     }
+     .heading {
+         padding: 10px;
+         font-size: 2.2rem;
+     }
+     .name{
+         font-size: 2.5rem;
+     }
+     .address{
+         font-size: 20px;
+     }
+     .food-item img {
+        height: 370px;
+    }
+ }
+
+ /* This is the smallest breakpoint */
+
+ @media only screen and (max-width:445px) {
+    #expbody{
+         background-color: rgb(234 239 230);
+     }
+     * {
+         padding: 0;
+         margin: 0;
+     }
+     .waste {
+         width: 100%;
+         padding: 0;
+         margin: 0;
+     }
+     .heading {
+         padding: 2px;
+         font-size: 28px;
+     }
+     .name {
+         font-size: 26px;
+         margin: 2px;
+     }
+     .address {
+         font-size: 16px;
+         margin: 0;
+         padding: 0;
+     }
+     .profile {
+         height: auto;
+         padding: 0;
+     }
+     .inf {
+         width: 66%;
+     }
+     .food-item img {
+         height: 240px;
+     }
+ }
+
+ /* this is for Footer only */
+
+ @media only screen and (max-width:365px) {
+     .suscribe {
+         display: flex;
+         flex-flow: column;
+     }
+     .suscribe input {
+         margin: 5px;
+     }
