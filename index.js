@@ -114,7 +114,7 @@ like.addEventListener('click', likeTogg);
 
 // this is for location and image update
 function profile(index) {
-    let imgPath = hoverProfile[index].src.slice(22,41);
+    let imgPath = hoverProfile[index].src.slice(49,66);
     let sideimgPath = myArr[index].image;
     if (imgPath == sideimgPath) {
         sideimg.src = sideimgPath;
