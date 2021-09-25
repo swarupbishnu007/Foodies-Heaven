@@ -248,6 +248,7 @@
      }
  }
 
+
  /* this is for Footer only */
 
  @media only screen and (max-width:365px) {
@@ -258,3 +259,4 @@
      .suscribe input {
          margin: 5px;
      }
+}
